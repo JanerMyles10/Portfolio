@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.minecraft-form {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #1e1e1e;
+  border: 4px solid #000;
+  padding: 30px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 500px;
+  color: #c8f560;
+  box-shadow: 8px 8px 0px #000;
+  text-align: center;
+}
+
+.minecraft-form h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.message-info, .message-area {
+  width: 100%;
+  background-color: #3a3a3a;
+  border: 3px solid #000;
+  color: #fff;
+  padding: 12px;
+  margin: 10px 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  box-shadow: inset 0 0 6px #000;
+}
+
+.message-area {
+  height: 120px;
+  resize: none;
+}
+
+.submit-btn {
+  background-color: #7ec850;
+  border: 3px solid #000;
+  color: #000;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #000;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #a4e860;
+  transform: translateY(-2px);
+}

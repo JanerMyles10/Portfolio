@@ -1,0 +1,17 @@
+<app-header></app-header>
+<div class="pickaxe-container" (click)="showHobbies = !showHobbies">
+  <img src="image/pickaxe.png" alt="Click the pickaxe!" class="img-pickaxe-button">
+  <p class="click-msg">Click the Pickaxe to reveal my hobbies!</p>
+</div>
+
+<!-- Hobbies Section (only shown if showHobbies is true) -->
+<div class="hobbies" *ngIf="showHobbies">
+  <h3>My Hobbies</h3>
+  <img src="image/kon.webp" alt="Pickaxe" class="img-pickaxe">
+  <p>First of all, my favorite hobby is playing games.</p>
+  <p>Secondly, sleeping (5 hours a day).</p>
+  <p>Third, playing basketball.</p>
+  <p>Watching Movies(series)also anime and reading manga </p>
+  <p>I LOVE TO COOK.</p>
+  <p>AND AFTER COOKING? WHAT'S NEXT? YEAH — EAT!!!!</p>
+</div>

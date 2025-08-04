@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #7ec850; /* grass green */
+  font-family: 'Press Start 2P', cursive;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  background-color: #5e3c00; /* wooden header */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border: 3px solid #2e2e2e;
+  box-shadow: 2px 2px 0 #333;
+  margin-bottom: 20px;
+}
+
+div[class^="project"], div[class^="up-projects"] {
+  background-color: #c2b280; /* sand/dirt color */
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #2e2e2e;
+  box-shadow: 4px 4px 0 #444;
+}
+
+h3 {
+  color: #3a3a3a;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px #fff;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Extra touch: pixelated hover effect */
+div[class^="project"]:hover,
+div[class^="up-projects"]:hover {
+  background-color: #b5a268;
+  transform: scale(1.02);
+  transition: 0.2s;
+  box-shadow: 6px 6px 0 #222;
+}
+
+/* Make it more blocky */
+* {
+  image-rendering: pixelated;
+}
