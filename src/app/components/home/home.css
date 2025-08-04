@@ -69,3 +69,10 @@
   box-shadow: 8px 8px 0 #222;
 }
 
+.row3{
+  text-align: center;
+  color: white;
+  font-size: larger;
+  background-color: #5e3c00; /* wood-style */
+  padding: 10px;
+}
