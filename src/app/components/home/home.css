@@ -76,3 +76,9 @@
   background-color: #5e3c00; /* wood-style */
   padding: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  h1{
+    color: blue;
+  }
+}

@@ -3,6 +3,7 @@
 .navbar {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: #1b1b1b; /* dark stone black */
   padding: 12px 20px;
@@ -30,6 +31,7 @@
 .nav-links {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
